@@ -1,5 +1,6 @@
 var http = require('http'),
-    express = require ('express');
+    express = require ('express'),
+    path = require('path');
 
 app = express();
 app.set('views', __dirname + '/');
