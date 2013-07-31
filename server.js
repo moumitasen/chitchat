@@ -5,9 +5,9 @@ app = express();
 app.set('views', __dirname + '/');
 app.set('view engine', 'jade');
 app.engine('.html', require('jade').__express);
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res){res.render('index')});
-//app.get('/', function(req, res){res.send('hello')});
 
 app.set('port', process.env.PORT || 8080);
 http.createServer(app).listen(app.get('port'), function(){
