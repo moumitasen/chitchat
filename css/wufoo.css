@@ -1,0 +1,43 @@
+body{
+	margin: 0px;
+}
+
+#container{
+	width: 600px;
+}
+
+.safari input.btTxt {
+font-size: 130%;
+background-color: #f78d4c;
+color: white;
+padding: 5px;
+}
+
+textarea.textarea {
+	width: 280px;
+	min-width: 50%;
+	max-width: 100%;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+	font-size: 104%;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #7A7A7A;
+}
+.wufoo .info h2 {
+font-size: 134%;
+font-family: inherit;
+font-style: normal;
+font-weight: normal;
+color: #525252;
+}
+
+.wufoo .section h3 {
+font-size: 112%;
+font-family: inherit;
+font-style: normal;
+font-weight: normal;
+color: #505050;
+}
