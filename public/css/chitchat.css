@@ -460,3 +460,8 @@ footer ul li a:hover{
 .privacy li{
 	margin-bottom: 10px;
 }
+
+
+.about img{
+	border-radius: 50%;
+}
