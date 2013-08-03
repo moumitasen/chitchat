@@ -502,7 +502,7 @@ nav ul li a {
 }
 
 .logo_container{
-	width: 172px;
+	/*width: 172px;*/
 	margin: 0 auto;
 	margin-top: 20px;
 	padding-right: 10px;
@@ -511,23 +511,25 @@ nav ul li a {
 .main{
 	background-image: none;
 	background-color: rgb(243, 239, 231);
+	padding:80px 20px;
 }
 .left_box{
-	width: 290px;
+	width: 270px;
 	margin: 0 auto;
+	padding: 8px;
+}
+.left_box h1{
+	font-size: 30px;
 }
 
-
 .left_box h4{
-	font-size: 17px;
+	font-size: 15px;
 }
 .usp_content{
 	width: 100%;
 }
 
 .usp_content h2{
-
-	text-align: left;
 	width: 307px;
 	font-size: 19px;
 	background-position: 8px 14px;
@@ -563,11 +565,11 @@ nav ul li a {
 }
 
 .std_width{
-	width: 300px;
+	width: 315px;
 	margin: 0 auto;
 }
 footer{
-	width: 315px;
+	width: 300px;
 	margin: 0px;
 	text-align: center;
 
