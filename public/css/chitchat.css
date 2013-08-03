@@ -491,6 +491,10 @@ body{
 .container{
 	width: auto;
 }
+
+.header{
+	padding: 1% 2%;
+}
 nav{
 	width:100%;
 	margin: 10px auto;	
@@ -546,9 +550,10 @@ nav ul li a {
 	word-spacing:0px;
 }
 .ub_wrapper{
-	width: 90%;
+	width: 93%;
 	padding: 1em 1em;
 	margin: 30px auto;
+	border-radius: 0px;
 }
 .outer_wrapper{
 	padding: 0px;
@@ -565,12 +570,12 @@ nav ul li a {
 }
 
 .std_width{
-	width: 315px;
+	width: 100%;
 	margin: 0 auto;
 }
 footer{
-	width: 300px;
-	margin: 0px;
+	width: 309px;
+	margin: 0px auto;
 	text-align: center;
 
 }
