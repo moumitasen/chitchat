@@ -485,6 +485,9 @@ footer ul li a:hover{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-width : 320px) and (max-width : 480px) {
+body{
+	width: 100%;
+}
 .container{
 	width: auto;
 }
@@ -500,7 +503,6 @@ nav ul li a {
 
 .logo_container{
 	width: 172px;
-	float: none;
 	margin: 0 auto;
 	margin-top: 20px;
 	padding-right: 10px;
