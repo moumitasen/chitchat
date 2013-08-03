@@ -496,12 +496,12 @@ body{
 	padding: 1% 2%;
 }
 nav{
-	width:100%;
-	margin: 10px auto;	
+	width:90%;
+	margin: 20px auto;
 }
 
 nav ul li a {
-	margin-left: 9px;
+	/*margin-left: 9px;*/
 	font-size: 16px;
 }
 
@@ -587,7 +587,7 @@ footer ul li a {
 
 }
 .btn-mini{
-	font-size: 13px;
+	display: none;
 }
 .btn-large{
 	font-size: 16px;
