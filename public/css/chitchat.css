@@ -148,7 +148,7 @@ nav ul a:active {
 
 .btn-large {
 	
-	letter-spacing: 1.5px;
+	/*letter-spacing: 1.5px;*/
 	text-shadow:2px -1px 0px rgba(0, 0, 0, 0.4);
 
 }
@@ -480,3 +480,82 @@ footer ul li a:hover{
 .about .about_header img{
 	border-radius: 50%;
 }
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 320px) and (max-width : 480px) {
+
+nav{
+	width: 315px;
+	float: left;
+	margin: 10px 0px 10px 20px;	
+}
+
+nav ul li a {
+	margin-left: 9px;
+}
+
+.logo_container{
+	padding-left: 85px;
+	margin-top: 20px;
+}
+.main{
+	background-image: none;
+	background-color: rgb(243, 239, 231);
+}
+.left_box{
+	width: 308px;
+}
+
+.usp_content h2{
+
+	text-align: left;
+	width: 380px;
+	padding-left: 10px;
+	margin: 40px 20px 0px 20px;
+	font-size: 22px;
+	background-position: 8px 14px;
+}
+.boxes{
+	width: 805px;
+}
+.boxes h2{
+	padding-left: 30px;
+	background-position: 4px 14px;
+}
+.ub_wrapper{
+	width: 360px;
+	padding: 1em 1em;
+	margin-left: 19px;
+}
+
+.std_width{
+	width: 320px;
+}
+footer{
+	width: 315px;
+	margin: 0px;
+	text-align: center;
+
+}
+
+footer ul li a {
+	font-size: 13px;
+	margin-right: 2px;
+	margin-right: 2px;
+
+}
+
+
+
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
