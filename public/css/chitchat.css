@@ -23,19 +23,21 @@ header{
 }
 
 .logo_container {
-	width: 15%;
+	/*width: 15%;*/
 	float: left;
+}
+
+.logo_container a div {
+	float: left;
+	width: 40px;
 	position: relative;
+	top: -0.438em;
 }
 
-.logo_container img {
+.logo_container a div img{
+	width: 100%;
 	float: left;
-	width: 23%;
-	position: absolute;
-	top: -7px;
-	left: 3px;
 }
-
 .logo_container h1 {
 	font-size: 45px;
 	font-family: 'Oregano', sans-serif;
@@ -51,7 +53,6 @@ nav{
 	float: right;
 	font-family: 'Lato', sans-serif;
 	margin-top: 10px;
-	width: 34%;
 }
 
 nav ul {
@@ -112,7 +113,7 @@ nav ul a:active {
 
 
 .left_box {
-	width: 48%;
+	width: 425px;
 	padding: 20px;
 	background-color: rgba(200,200,200,0.5);;
 	text-align: center;
@@ -240,51 +241,53 @@ p.country{
 
 
 }
-
+.outer_wrapper{
+	width: 100%;
+	overflow: hidden;
+}
 .ub_wrapper{
 	width: 42%;
 	overflow: hidden;
 	float: left;
-	margin-right: 37px;
-	margin-left: 37px;
-	margin-bottom: 50px;
-	padding: 25px 15px;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-bottom: 7%;
+	padding: 2em 1em;
 	background-color: rgba(200,200,200,0.5);
-	border-radius: 7px;
+	border-radius: 0.5em;
 }
 
 .ub_wrapper .icon {
-	width: 60px;
-	height: 60px;
+	width: 16%;
 	border-radius: 50%;
 	background-color: #fff;
 	float:left;
-	margin-top: 15px;
+	margin-top: 1em;
 }
 .ub_wrapper .icon img{
-	width: 60px;
-	height: 60px;
+	width: 100%;
+	height: 100%;
 }
 
 .user_benefit {
-	width: 300px;
+	width: 80%;
 	float: right;
 	line-height: 1.5;
-	margin-left: 12px;
+	margin-left: 0.75em;
 
 }
 
 .user_benefit h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	font-size: 22px;
-	word-spacing: 5px;
+	font-size: 1.375em;
+	word-spacing: 0.313em;
 
 }
 
 .user_benefit p{
-	padding-top: 10px;
-	word-spacing: 3px;
+	padding-top: 0.62em;
+	word-spacing: 0.18em;
 }
 
 footer{
