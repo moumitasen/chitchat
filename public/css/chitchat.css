@@ -29,7 +29,7 @@ header{
 
 .logo_container a div {
 	float: left;
-	width: 40px;
+	width: 37px;
 	position: relative;
 	top: -0.438em;
 }
@@ -105,7 +105,7 @@ nav ul a:active {
 }
 
 .std_width {
-	width: 76%;
+	width: 82%;
 	margin: 0 auto;
 	clear: both;
 
@@ -213,7 +213,7 @@ p.country{
 .usp{
 	width: 100%;
 	background-color: rgb(243, 239, 231);
-	padding-top: 60px;
+	padding-top: 10px;
 	padding-bottom: 60px;
 	color: rgb(54, 54, 54);
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
@@ -226,32 +226,41 @@ p.country{
 	overflow: hidden;
 
 }
-
 .usp_content h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 40px auto;
 	padding-bottom: 8px;
 	word-spacing: 7px;
 	background-image: url(../images/underline.png);
 	background-repeat: no-repeat;
-	background-position: 301px 22px;
-
-
+	background-position: 312px 22px;
 }
+
+.boxes{
+	width: 861px;
+}
+
+.boxes h2{
+	background-position: 260px 22px;
+}
+
+
+
+
 .outer_wrapper{
-	width: 100%;
-	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: -50px
 }
 .ub_wrapper{
-	width: 42%;
+	width: 404px;
 	overflow: hidden;
 	float: left;
-	margin-right: 4%;
-	margin-left: 4%;
-	margin-bottom: 7%;
+	margin-right: 50px;
+	margin-bottom: 50px;
 	padding: 2em 1em;
 	background-color: rgba(200,200,200,0.5);
 	border-radius: 0.5em;
@@ -280,7 +289,7 @@ p.country{
 .user_benefit h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	font-size: 1.375em;
+	font-size: 1.4em;
 
 }
 
