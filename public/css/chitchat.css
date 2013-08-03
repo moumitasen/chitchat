@@ -485,49 +485,75 @@ footer ul li a:hover{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-width : 320px) and (max-width : 480px) {
-
+.container{
+	width: auto;
+}
 nav{
-	width: 315px;
-	float: left;
-	margin: 10px 0px 10px 20px;	
+	width:94%;
+	margin: 10px auto;	
 }
 
 nav ul li a {
-	margin-left: 9px;
+	margin-left: 14px;
 }
 
 .logo_container{
-	padding-left: 85px;
+	width: 172px;
+	float: none;
+	margin: 0 auto;
 	margin-top: 20px;
+	padding-right: 10px;
+
 }
 .main{
 	background-image: none;
 	background-color: rgb(243, 239, 231);
 }
 .left_box{
-	width: 308px;
+	width: 290px;
+}
+
+
+.left_box h4{
+	font-size: 17px;
+}
+.usp_content{
+	width: 100%;
 }
 
 .usp_content h2{
 
 	text-align: left;
-	width: 380px;
-	padding-left: 10px;
-	margin: 40px 20px 0px 20px;
-	font-size: 22px;
+	width: 307px;
+	font-size: 19px;
 	background-position: 8px 14px;
+	margin-bottom: 5px;
 }
 .boxes{
-	width: 805px;
+	width: 100%;
+	margin: 0 auto;
 }
 .boxes h2{
 	padding-left: 30px;
 	background-position: 4px 14px;
 }
 .ub_wrapper{
-	width: 360px;
+	width: 90%;
 	padding: 1em 1em;
-	margin-left: 19px;
+	margin: 30px auto;
+}
+.outer_wrapper{
+	padding: 0px;
+}
+.user_benefit{
+	margin-left: 0.5em;
+}
+
+.user_benefit h3{
+	font-size: 1.1em;
+}
+.user_benefit p{
+	font-size: 14px;
 }
 
 .std_width{
@@ -541,13 +567,17 @@ footer{
 }
 
 footer ul li a {
-	font-size: 13px;
+	font-size: 12px;
 	margin-right: 2px;
 	margin-right: 2px;
 
 }
-
-
+.btn-mini{
+	font-size: 13px;
+}
+.btn-large{
+	font-size: 16px;
+}
 
 }
 
