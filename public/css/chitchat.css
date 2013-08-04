@@ -574,7 +574,7 @@ nav ul li a {
 	margin: 0 auto;
 }
 footer{
-	width: 309px;
+	width: 315px;
 	margin: 0px auto;
 	text-align: center;
 
@@ -599,7 +599,7 @@ padding: 80px 10px 20px 10px;
 }
 
 .class_content{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	width: 87%;
 }
 .class_descr {
@@ -623,7 +623,7 @@ margin-top: 10px;
 .pricing_container .pricing_box{
 	float: none;
 	margin: 0px auto;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .pricing_container .pricing_box:last-child {
 	margin: 0px auto;
