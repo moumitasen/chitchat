@@ -497,7 +497,7 @@ body{
 }
 nav{
 	width:90%;
-	margin: 20px auto;
+	margin: 10px auto;
 }
 
 nav ul li a {
@@ -508,7 +508,7 @@ nav ul li a {
 .logo_container{
 	/*width: 172px;*/
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-right: 10px;
 
 }
@@ -563,7 +563,7 @@ nav ul li a {
 }
 
 .user_benefit h3{
-	font-size: 1.1em;
+	font-size: 1.3em;
 }
 .user_benefit p{
 	font-size: 14px;
@@ -591,10 +591,44 @@ footer ul li a {
 }
 .btn-large{
 	font-size: 16px;
-}
 
 }
 
+.class_header {
+padding: 80px 10px 20px 10px;
+}
+
+.class_content{
+	margin-bottom: 20px;
+	width: 87%;
+}
+.class_descr {
+float: left;
+width: 92%;
+margin-top: 10px;
+}
+
+.class_descr h3{
+	line-height: 1.5;
+}
+
+.class_descr ul{
+	list-style-position: outside;
+	margin-left: 15px;
+}
+.pricing_container{
+	padding-top: 30px;
+	width: 100%;
+}
+.pricing_container .pricing_box{
+	float: none;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+.pricing_container .pricing_box:last-child {
+	margin: 0px auto;
+}
+}
 
 
 /* iPads (portrait and landscape) ----------- */
