@@ -603,9 +603,10 @@ padding: 80px 10px 20px 10px;
 	width: 87%;
 }
 .class_descr {
-float: left;
-width: 92%;
-margin-top: 10px;
+	
+	float: left;
+	width: 92%;
+	margin-top: 10px;
 }
 
 .class_descr h3{
