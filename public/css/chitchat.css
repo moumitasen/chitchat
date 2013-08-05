@@ -104,13 +104,14 @@ nav ul a:active {
 	clear: both;
 }
 
-
 .left_box {
-	width: 425px;
-	padding: 20px;
-	background-color: rgba(200,200,200,0.5);;
-	text-align: center;
-	border-radius: 5px;
+width: 425px;
+padding: 20px;
+background-color: rgba(200,200,200,0.5);
+text-align: center;
+border-radius: 5px;
+border: 1px solid rgba(0,0,0,0.1);
+box-shadow: 0px 6px 5px rgba(0,0,0,0.4);
 }
 
 .left_box h1 {
@@ -238,15 +239,18 @@ p.country{
 	margin-right: -50px;
 	overflow: hidden;
 }
-.ub_wrapper{
+.ub_wrapper {
+	border: 6px solid white;
 	width: 404px;
 	overflow: hidden;
 	float: left;
-	margin-right: 50px;
+	margin-right: 47px;
 	margin-bottom: 50px;
 	padding: 2em 1em;
 	background-color: rgba(200,200,200,0.5);
 	border-radius: 0.5em;
+	margin-left: 2px;
+	box-shadow: 0px 5px 4px rgba(0,0,0,0.4);
 }
 
 .ub_wrapper .icon {
@@ -319,12 +323,14 @@ footer{
 	padding:25px 15px;
 	background-color: #fff;
 	border-radius: 5px;
-	box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 1px 3px 5px rgba(0,0,0, 0.4);
 	overflow:hidden;
 }
 
 .class_image{
 	float: left;
+	border: 1px solid rgba(0,0,0,0.3);
 }
 
 .class_descr{
@@ -378,8 +384,9 @@ footer{
 	margin-right: 38px;
 	background-color: #fff;
 	text-align: center;
-	border-radius: 6px;
-	box-shadow: 1px 1px 8px  rgba(0,0,0,0.3)
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.4);
 }
 
 .pricing_container .pricing_box:last-child {
