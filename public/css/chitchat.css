@@ -4,10 +4,8 @@
 body{
 	margin: 0;
 	font-family: georgia, lucida, serif;
-	font-weight: normal;
-	
+	font-weight: normal;	
 }
-
 
 header{
 	overflow: hidden;
@@ -19,11 +17,9 @@ header{
 	background-color: rgba(255,255,255, 1);
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
 	z-index: 2;
-
 }
 
 .logo_container {
-	/*width: 15%;*/
 	float: left;
 }
 
@@ -46,7 +42,6 @@ header{
 	margin:0;
 	color: rgb(82, 82, 82);
 	text-shadow: 0 1px 0px rgba(0, 0, 0, 0.3);
-
 }
 
 nav{
@@ -60,8 +55,7 @@ nav ul {
 }
 
 nav ul li{	
-	display: inline;
-	
+	display: inline;	
 }
 
 nav ul li a {
@@ -78,7 +72,7 @@ nav ul li:first-child a {
 
 nav ul a:hover {
 	text-decoration: underline;
-	color: #da751c; /*rgb(55, 55, 55)*/
+	color: #da751c; 
 }
 
 nav ul a:active {
@@ -93,6 +87,7 @@ nav ul a:active {
 	clear: both;
 	margin-bottom: 0px;
 }
+
 .main {
 	background-image: url(../images/hero_shot2.jpg);
 	background-repeat: no-repeat;
@@ -101,14 +96,12 @@ nav ul a:active {
 	width: 100%;
 	padding:80px 50px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-	/*border-bottom: 2px solid rgba(0,0,0,0.15);*/
 }
 
 .std_width {
 	width: 960px;
 	margin: 0 auto;
 	clear: both;
-
 }
 
 
@@ -136,8 +129,8 @@ nav ul a:active {
 	font-weight: normal;
 	margin-bottom: 25px;
 	font-size: 18px;
-	
 }
+
 .btn-warning{
 	background-image: linear-gradient(to bottom, #FF9757, #ea7c38);
 	font-family: sans-serif;
@@ -147,14 +140,10 @@ nav ul a:active {
 }
 
 .btn-large {
-	
-	/*letter-spacing: 1.5px;*/
 	text-shadow:2px -1px 0px rgba(0, 0, 0, 0.4);
-
 }
 
 .btn-mini{
-	
 	padding:3px 5px;
 	font-size: 14px;
 	text-shadow:0px -1px 0px rgba(0, 0, 0, 0.25);
@@ -163,7 +152,6 @@ nav ul a:active {
 .btn-warning:hover{
 	background-color:#E76600;
 	background-image: linear-gradient(to bottom, #ea7c38, #E76600);
-
 }
 
 
@@ -179,16 +167,18 @@ nav ul a:active {
 	min-height: 385px;
 }
 
-.review h3{
+.review_content h3{
 	width: 76%;
 	margin: 0 auto;
 	font-weight: normal;
+	font-size: 18px;
 	font-style: italic;
 	padding-bottom: 20px;
-	padding-top: 40px;
+	padding-top: 20px;
 	line-height: 1.5;
 	color: rgb(94, 94, 94);
 }
+
 .review_content p{
 	font-size: 13px;
 	line-height: 1.5;
@@ -203,8 +193,7 @@ nav ul a:active {
 p.country{
 	font-size: 15px;
 	color: #606060;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 .usp{
@@ -216,19 +205,18 @@ p.country{
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
 }
 
-
 .usp_content {
 	width: 960px;
 	margin: 0 auto;
 	overflow: hidden;
-
 }
+
 .usp_content h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 	text-align: center;
-	margin: 40px auto;
+	margin: 35px auto;
 	padding-bottom: 8px;
 	word-spacing: 7px;
 	background-image: url(../images/underline.png);
@@ -244,13 +232,11 @@ p.country{
 	background-position: 260px 22px;
 }
 
-
-
-
 .outer_wrapper{
 	padding-top: 20px;
 	padding-bottom: 30px;
-	margin-right: -50px
+	margin-right: -50px;
+	overflow: hidden;
 }
 .ub_wrapper{
 	width: 404px;
@@ -298,7 +284,7 @@ footer{
 	padding: 20px;
 }
 
-/*Classes*/
+/*CLASSES*/
 
 
 .container_class{
@@ -318,7 +304,6 @@ footer{
 	color:rgb(218, 128, 68);
 	font-weight: normal;
 	margin-bottom: 20px;
-
 }
 
 .class_header h3{
@@ -336,11 +321,12 @@ footer{
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
 	overflow:hidden;
-
 }
+
 .class_image{
 	float: left;
 }
+
 .class_descr{
 	float:right;
 	width: 83%;
@@ -373,7 +359,8 @@ footer{
 	height: 130px;
 }
 
-/*Pricing Page*/
+/*PRICING*/
+
 .pricing_container {
 	overflow:hidden;
 	margin: auto;
@@ -381,7 +368,6 @@ footer{
 	padding-bottom: 80px;
 	font-family: georgia;
 	color: rgb(77, 77, 77);
-
 }
 
 
@@ -395,6 +381,7 @@ footer{
 	border-radius: 6px;
 	box-shadow: 1px 1px 8px  rgba(0,0,0,0.3)
 }
+
 .pricing_container .pricing_box:last-child {
 	margin-right: 0px;
 }
@@ -415,7 +402,6 @@ footer{
 	padding:10px 0px;
 	font-family: 'Lato', sans-serif;
 	font-size: 38px;
-
 }
 
 .pricing_box h3{
@@ -432,6 +418,7 @@ footer{
 	line-height: 1.5;
 }
 
+/* FOOTER*/
 footer{
 	width: 55%;
 	margin: 0 auto;
@@ -444,9 +431,9 @@ footer{
 
 
 footer ul li{
-	display: inline-block;
-	
+	display: inline-block;	
 }
+
 footer ul li a{
 	color: #505050;
 	font-size: 14px;
@@ -454,34 +441,67 @@ footer ul li a{
 	margin-right: 5px;
 	margin-left: 5px;
 }
+
 footer ul li a:hover{
 	color: #5286c5;
 	text-decoration: underline;
 }
-
+/*TERMS & PRIVACY*/
 .privacy{
 	width: 600px;
-	line-height: 1.5;
+	
 	color: rgb(54,54,54);
 }
+
 .privacy li{
 	margin-bottom: 10px;
+	line-height: 1.5;
 }
-.about h1{
+
+/*ABOUT US*/
+
+.about h1 {
 	background-color: #f78d4c;
 	color: #fff;
 	font-weight: normal;
+	font-size: 23px;
 	font-family: 'Lato', sans-serif;
-	padding: 5px;
-}
-.about .about_header{
+	padding: 11px;
 	text-align: center;
 }
+
+.about .about_header{
+	text-align: center;
+	margin: 25px auto;
+}
+
+.about .about_header h2{
+	font-family: 'Lato',sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	padding: 10px;
+	color: #454545;
+}
+
+.about .about_header h3{
+	color: #f78d4c;
+	font-weight: normal;
+	font-size: 21px;
+}
+
 .about .about_header img{
 	border-radius: 50%;
 }
 
+.about p{
+	margin: 10px;
+	color:#555555;
+	line-height: 1.5;
+} 
 
+
+
+/*MEDIA QUERIES*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-width : 320px) and (max-width : 480px) {
@@ -501,12 +521,10 @@ nav{
 }
 
 nav ul li a {
-	/*margin-left: 9px;*/
 	font-size: 16px;
 }
 
 .logo_container{
-	/*width: 172px;*/
 	margin: 0 auto;
 	margin-top: 10px;
 	padding-right: 10px;
@@ -577,21 +595,19 @@ footer{
 	width: 315px;
 	margin: 0px auto;
 	text-align: center;
-
 }
 
 footer ul li a {
 	font-size: 12px;
 	margin-right: 2px;
 	margin-right: 2px;
-
 }
+
 .btn-mini{
 	display: none;
 }
 .btn-large{
 	font-size: 16px;
-
 }
 
 .class_header {
@@ -602,8 +618,8 @@ padding: 80px 10px 20px 10px;
 	margin-bottom: 40px;
 	width: 87%;
 }
-.class_descr {
-	
+
+.class_descr {	
 	float: left;
 	width: 92%;
 	margin-top: 10px;
@@ -629,12 +645,12 @@ padding: 80px 10px 20px 10px;
 .pricing_container .pricing_box:last-child {
 	margin: 0px auto;
 }
+
 }
 
-
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape)
 @media (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
-}
+ 
+}*/
 
 
