@@ -65,6 +65,9 @@ nav ul li a {
 	font-size: 17px;
 	color: rgb(105, 105, 105);
 }
+nav ul li a.active {
+  color:#da751c;
+}
 
 nav ul li:first-child a {
 	margin-left: 0px;

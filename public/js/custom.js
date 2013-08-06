@@ -17,17 +17,10 @@
 // });
 
 $(document).ready(function(){
-	    $('.carousel').carousel({
+	$('.carousel').carousel({
 	      interval: 7000
 	    });
-	  });
 
-
-
-
-
-
-$(document).ready(function() {
     $(".fancybox").fancybox();
 
     $(".fancybox")
@@ -40,6 +33,18 @@ $(document).ready(function() {
             this.height = parseInt(this.element.data('fancybox-height'));
         }
     });
+
+    // if there is a link in the menu that
+    // corresponds to the page we're on
+    // add the class of active to it
+
+    var urlstring = window.location.href
+    var index = urlstring.lastIndexOf("/") + 1;
+    var filename = urlstring.substr(index);
+
+    console.log('a[href="' + filename + '"]');
+
+    $('a[href="' + filename + '"]').addClass('active')
   });
 
 
