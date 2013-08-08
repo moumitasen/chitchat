@@ -578,13 +578,15 @@ nav ul li a {
 	word-spacing:0px;
 }
 .ub_wrapper{
-	width: 93%;
+	width: 85%;
 	padding: 1em 1em;
 	margin: 30px auto;
-	border-radius: 0px;
+	border-radius: 5px;
+	float: none;
 }
 .outer_wrapper{
 	padding: 0px;
+	width: 100%;
 }
 .user_benefit{
 	margin-left: 0.5em;
@@ -658,9 +660,10 @@ padding: 80px 10px 20px 10px;
 
 }
 
-/* iPads (portrait and landscape)
-@media (min-device-width : 768px) and (max-device-width : 1024px) {
+/* iPads (portrait and landscape)*/
+@media (min-width : 768px) and (max-width : 1024px) {
+
  
-}*/
+}
 
 
