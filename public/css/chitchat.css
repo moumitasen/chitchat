@@ -10,7 +10,7 @@ body{
 header{
 	overflow: hidden;
 	width: 100%;
-	padding: 1.5% 5% 1% 5%;
+	padding: 1.5% 5% 0.5% 5%;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -25,7 +25,7 @@ header{
 
 .logo_container a div {
 	float: left;
-	width: 37px;
+	width: 175px;
 	position: relative;
 	top: -0.438em;
 }
