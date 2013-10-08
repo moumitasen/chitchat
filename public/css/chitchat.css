@@ -482,10 +482,10 @@ footer ul li a:hover{
 
 .about .about_header{
 	text-align: center;
-	margin: 25px auto;
+	margin: 15px 25px;
 }
 
-.about .about_header h2{
+/*.about .about_header h2{
 	font-family: 'Lato',sans-serif;
 	font-size: 23px;
 	font-weight: normal;
@@ -493,23 +493,61 @@ footer ul li a:hover{
 	color: #454545;
 }
 
-.about .about_header h3{
-	color: #f78d4c;
-	font-weight: normal;
-	font-size: 21px;
-}
+*/
 
 .about .about_header img{
-	border-radius: 50%;
+	margin: 20px 0px;
 }
 
 .about p{
-	margin: 10px;
+	margin: 40px 20px 20px 30px;
 	color:#555555;
 	line-height: 1.5;
 } 
 
+/*Team Page*/
 
+.team{
+	width: 100%;
+	padding: 65px 0px 35px 0px;
+
+}
+
+.team_content{
+	padding:20px 0px;
+	width: 100%;
+	overflow: hidden;
+	padding: 25px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+.team_content .team_pic{
+	width: 20%;
+	float: left;
+}
+
+.team_content .team_pic img{
+	border-radius: 50%;
+}
+
+.team_content .team_descr{
+	width: 80%;
+	float: right;
+}
+
+.team_content .team_descr h3{
+	color: #f78d4c;
+	font-weight: normal;
+	font-size: 21px;
+	margin-bottom: 15px;
+}
+
+.team_content .team_descr p{
+color: #555555;
+font-weight: normal;
+line-height: 1.5;
+}
 
 /*MEDIA QUERIES*/
 
