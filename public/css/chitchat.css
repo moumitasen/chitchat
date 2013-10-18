@@ -564,8 +564,9 @@ body{
 	padding: 1% 2%;
 }
 nav{
-	width:90%;
+	width:92%;
 	margin: 10px auto;
+	float: left;
 }
 
 nav ul li a {
@@ -696,6 +697,25 @@ padding: 80px 10px 20px 10px;
 	margin: 0px auto;
 }
 
+.team_content{
+	width: 93%;
+	margin: 0 auto;
+}
+.team_content .team_pic{
+	float: none;
+	margin: 0 auto;
+	width: 150px;
+	padding-bottom: 20px;
+}
+.team_content .team_descr{
+	float: none;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.team_content .team_descr h3{
+	text-align: center;
+}
 }
 
 /* iPads (portrait and landscape)*/
