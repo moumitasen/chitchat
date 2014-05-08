@@ -92,7 +92,7 @@ nav ul a:active {
 }
 
 .main {
-	background-image: url(../images/hero_shot2.jpg);
+	background-image: url(../images/hero_shot_business.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -418,7 +418,7 @@ footer{
 	color:#555555;
 	padding:8px 0px;
 	font-weight: normal;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 
 .pricing_box p{
@@ -497,6 +497,7 @@ footer ul li a:hover{
 
 .about .about_header img{
 	margin: 20px 0px;
+	border-radius: 50%;
 }
 
 .about p{
@@ -536,11 +537,11 @@ footer ul li a:hover{
 	float: right;
 }
 
-.team_content .team_descr h3{
+.team_descr h3{
 	color: #f78d4c;
 	font-weight: normal;
 	font-size: 21px;
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 }
 
 .team_content .team_descr p{
