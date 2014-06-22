@@ -19,17 +19,8 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/chitchat.css" />
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    
 
-    <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-43054858-1', 'chitchatwith.me');
-	  ga('send', 'pageview');
-
-	</script>
 </head> 
 
 <body>
@@ -45,9 +36,13 @@
 			<ul>
 				<li><a href="classes.html">Classes</a></li>
 				<li><a href="pricing.html">Pricing</a></li>
-				<li><a class="fancybox fancybox.iframe" data-fancybox-width="500" data-fancybox-height="800" href="about.html">About </a></li>
-				<li><a class="fancybox fancybox.iframe" href="http://moumita.wufoo.com/forms/m7x4z5/" data-fancybox-width="400" data-fancybox-height="430" id="wufoo-form" >Contact</a></li>
-				<li><a role="button" class="fancybox fancybox.iframe btn btn-warning btn-mini" data-fancybox-width="600" data-fancybox-height="900" id="wufoo-form" href="http://moumita.wufoo.com/forms/z7x4m1"> Sign up</a></li>
+				<li><a id="aboutUsButton" href="about.html">About Us </a></li>
+				<li><a role="button" class="btn btn-warning btn-mini" id="tipsButton" href="http://moumita.wufoo.com/forms/m7x4z5/"> Free tips & resources</a></li>
+				
+				<!-- <li><a id="contactUsButton" href="http://moumita.wufoo.com/forms/m7x4z5/" >Contact Us</a></li> -->
+				<!-- <li><a role="button" class="btn btn-warning btn-mini" id="tipsButton" href="#mc_embed_signup"> Free tips & resources</a></li> -->
+
+
 				<li> <a href="https://www.facebook.com/chitchatenglishclasses" target="_blank">
 						<div class="social_media" style="display:inline"> <img src ="images/fb.png" style="width:20px"/></div>
 					</a>
@@ -71,7 +66,7 @@
 				<div class="left_box">
 					<h1>Business Skills and<br>Professional English Classes Online </h1>
 					<h4>Enjoy personalized classes with an <br>experienced business professional and <br>native English speaker on Skype. <br>Learn valuable business communication skills, improve your English Resume and practice <br>Job Interviewing skills in English.</h4>
-					<a id="wufoo-form" href="http://moumita.wufoo.com/forms/z7x4m1" role="button" class="fancybox fancybox.iframe btn btn-warning btn-large" data-fancybox-width="600" data-fancybox-height="900" style="text-decoration:none">SIGN UP NOW</a>
+					<a id="signUpButton" href="http://moumita.wufoo.com/forms/z7x4m1" role="button" class="btn btn-warning btn-large" style="text-decoration:none">SIGN UP FOR CLASSES</a>
 				</div> 
 			</div>
 
@@ -213,12 +208,14 @@
 		<div class="std_width">
 			<footer> 
 
+				<div style="padding: 15px 10px 0px 10px; font-size:17px; color:#505050">Subscribe to our monthly newsletter to improve your English!</div> 
+				<div><a><input type="submit" value="Subscribe" name="subscribe" class="button footerButton" href="http://moumita.wufoo.com/forms/m7x4z5/" style = "" id="tipsButton"></input></a></div><br>
+
 				<ul> 
 					<li><a href="/">Home </a>|</li>
-					
-					<li><a class="fancybox fancybox.iframe" href="http://moumita.wufoo.com/forms/m7x4z5/" data-fancybox-width="400" data-fancybox-height="430" id="wufoo-form" >Contact</a>|</li>
 					<li><a href="classes.html">Classes </a>|</li>
 					<li><a href="pricing.html">Pricing </a>|</li>
+					<li><a id="aboutUsButton" href="about.html">About Us </a>|</li>
 					<li><a class="fancybox fancybox.iframe" href="privacy.html" data-fancybox-width="600" data-fancybox-height="600">Terms</a></li>	
 				</ul>
 				<hr>
@@ -227,9 +224,7 @@
 				<p>&#169 2013 Chitchat. All Rights Reserved.</p>
 				<p>Use of this website constitutes acceptance of our Terms and Privacy Policy. </p>
 			</footer>
-		</div>
-
-			
+		</div>	
 	</div>
 
 
@@ -238,12 +233,33 @@
 	<script src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script src="js/custom.js"></script>
 
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	
+	  ga('create', 'UA-43054858-1', 'chitchatwith.me');
+	  ga('send', 'pageview');
 
-
-
+	</script>
 
 	
 </body>
 </html>
+
+
+
+				<!-- Begin MailChimp Signup Form -->
+				<!-- <div id="mc_embed_signup" style="margin:4px">
+				<form action="http://chitchatwith.us7.list-manage1.com/subscribe/post?u=44204682826ac4e9e67e63352&amp;id=7a16ca16db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+					<label for="mce-EMAIL" style="padding: 15px 10px 0px 10px">Subscribe to our monthly newsletter to improve your English </label> <br>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="margin: 0 auto; display: block; width: 276px; height: 30px" placeholder="email address" required >
+				 
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_44204682826ac4e9e67e63352_7a16ca16db" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style = "display: block; margin:10px auto; clear:both; border: 2px solid #ea7c38;background-color: #E9E9E9; box-shadow: 1px 1px 1px 0px #B4B4B4;"></div>
+				</form>
+				</div>
+				<br>
+				<End mc_embed_signup-->
+

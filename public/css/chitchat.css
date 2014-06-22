@@ -734,4 +734,17 @@ padding: 80px 10px 20px 10px;
  
 }
 
+.footerButton{
+	display: block; margin:10px auto; clear:both; cursor: pointer; border: 2px solid #ea7c38;background-color: #E9E9E9; box-shadow: 1px 1px 1px 0px #B4B4B4; 
+}
+
+.footerButton:hover{
+	background-color: #DDCDC0;
+}
+
+
+
+
+
+
 

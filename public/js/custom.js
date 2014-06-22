@@ -66,4 +66,39 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 })(document, 'script');
 
 
+// <script type="text/javascript">
+        $(document).ready(function() {
+            $("#tipsButton2").fancybox({
+                'titlePosition'     : 'inside',
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none'
+            });
 
+            $("#tipsButton").fancybox({
+                'width'             : '400',
+                'height'            : '360',
+                'autoScale'         : false,
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'type'              : 'iframe'
+            });
+
+            $("#aboutUsButton").fancybox({
+                'width'             : '500',
+                'height'            : '800',
+                'autoScale'         : false,
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'type'              : 'iframe'
+            });
+
+            $("#signUpButton").fancybox({
+                'width'             : '600',
+                'height'            : '900',
+                'autoScale'         : false,
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'type'              : 'iframe'
+            });
+        });
+    // </script>
