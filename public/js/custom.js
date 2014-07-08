@@ -100,5 +100,14 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
                 'transitionOut'     : 'none',
                 'type'              : 'iframe'
             });
+
+            $("#videoButton").fancybox({
+                'width'             : '860',
+                'height'            : '490',
+                'autoScale'         : false,
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'type'              : 'iframe'
+            });
         });
     // </script>
