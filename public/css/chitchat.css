@@ -638,7 +638,7 @@ nav ul{
 }
 nav ul li a {
 	font-size: 16px;
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
 .logo_container{
@@ -650,6 +650,7 @@ nav ul li a {
 .resources{
 	display:none;
 }
+
 .social_media{
 	position: relative;
 	top: 10px;
@@ -662,7 +663,7 @@ nav ul li a {
 	width: 100%;
 }
 .left_box{
-	width: 94%;
+	width: 97%;
 	margin: 0 auto;
 	padding: 12px 4px;
 }
