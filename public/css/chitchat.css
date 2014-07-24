@@ -647,7 +647,9 @@ nav ul li a {
 	padding-right: 10px;
 
 }
-
+.resources{
+	display:none;
+}
 .social_media{
 	position: relative;
 	top: 10px;
@@ -660,7 +662,7 @@ nav ul li a {
 	width: 100%;
 }
 .left_box{
-	width: 90%;
+	width: 94%;
 	margin: 0 auto;
 	padding: 12px 4px;
 }
