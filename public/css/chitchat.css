@@ -348,6 +348,8 @@ footer{
 	filter: alpha(opacity=100);
 }
 
+
+
 .class_content{
 	margin:	20px auto;
 	padding:25px 15px;
@@ -366,6 +368,12 @@ footer{
 .class_descr{
 	float:right;
 	width: 83%;
+}
+
+
+.biz_eng{
+	width:49%; 
+	float:right;
 }
 
 .class_descr h3{
@@ -618,7 +626,7 @@ nav ul li a {
 	padding:80px 20px;
 }
 .left_box{
-	width: 270px;
+	width: 329px;
 	margin: 0 auto;
 	padding: 8px;
 }
@@ -703,20 +711,34 @@ padding: 80px 10px 20px 10px;
 	width: 87%;
 }
 
+.UdemyVideo{
+	width: 315px;
+}
+
+.UdemyVideo img{
+	width: 100%;
+}
+
 .class_descr {	
 	float: left;
-	width: 92%;
+	width: 100%;
 	margin-top: 10px;
 }
 
 .class_descr h3{
 	line-height: 1.5;
+	width: 322px;
 }
 
 .class_descr ul{
 	list-style-position: outside;
 	margin-left: 15px;
 }
+#signUpButton{
+	width: 348px !important;
+}
+
+
 .pricing_container{
 	padding-top: 30px;
 	width: 100%;
