@@ -600,15 +600,42 @@ body{
 	width: auto;
 }
 
-.header{
-	padding: 1% 2%;
+header{
+	padding: 1% 2.5%;
+	text-align: center;
 }
+
+.logo_container{
+	float: none;
+}
+
+.logo_container a{
+	float: none;
+}
+.logo_container a div{
+	float: none;
+	width: 100%;
+	top:0px;
+} 
+.logo_container a div img{
+	float: none;
+	width: 42%;
+}
+
+.logo_container h5{
+	font-size: 13px;
+}
+
 nav{
 	width:100%;
 	margin: 10px auto;
 	float: left;
 }
 
+nav ul{
+	border-top: 1px solid #ddd;
+	padding-top: 7px;
+}
 nav ul li a {
 	font-size: 16px;
 	margin-left: 20px;
@@ -620,15 +647,22 @@ nav ul li a {
 	padding-right: 10px;
 
 }
+
+.social_media{
+	position: relative;
+	top: 10px;
+}
+
 .main{
 	background-image: none;
 	background-color: rgb(243, 239, 231);
 	padding:80px 20px;
+	width: 100%;
 }
 .left_box{
-	width: 329px;
+	width: 90%;
 	margin: 0 auto;
-	padding: 8px;
+	padding: 12px 4px;
 }
 .left_box h1{
 	font-size: 30px;
@@ -713,6 +747,8 @@ padding: 80px 10px 20px 10px;
 
 .UdemyVideo{
 	width: 315px;
+	background-size: contain;
+	min-height: 0px;
 }
 
 .UdemyVideo img{
@@ -738,6 +774,9 @@ padding: 80px 10px 20px 10px;
 	width: 348px !important;
 }
 
+.class_header_2{
+	padding-top: 15px;
+}
 
 .pricing_container{
 	padding-top: 30px;
