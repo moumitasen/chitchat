@@ -650,10 +650,12 @@ nav ul li a {
 .resources{
 	display:none;
 }
-
+.facebook, .twitter{
+	display: none !important;
+}
 .social_media{
 	position: relative;
-	top: 10px;
+	top: 8px;
 }
 
 .main{
